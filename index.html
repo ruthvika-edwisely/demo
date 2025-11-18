@@ -3,8 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Positivus | Digital Marketing Agency</title>
+  <title> Positivus | Digital Marketing Agency</title>
+  <link rel="icon" type="images/icon" href="images/Vector.svg" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="layout.css" />
+<link rel="stylesheet" href="components.css" />
+<link rel="stylesheet" href="responsive.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
@@ -13,27 +17,28 @@
  
   <header class="navbar">
     <div class="logo">
-      <img src="Vector.svg" alt="Positivus Logo" width="30" />
+      <img src="images/Vector.svg" alt="Positivus Logo" width="30" />
       <h1 style="color: #000; font-family: Space Grotesk; font-size: 30px; font-style: normal; font-weight: 500; line-height: normal;">Positivus</h1>
     </div>
 
     <nav class="nav-links">
       <ul>
-        <li><a href="#about">About us</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#usecases">Use Cases</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#blog">Blog</a></li>
+        <li><a href="index.html#about" >About us</a></li>
+        <li><a href="services.html#services" >Services</a></li>
+        <li><a href="usecases.html#usecases" >Use Cases</a></li>
+        <li><a href="pricing.html#pricing" >Pricing</a></li>
+        <li><a href="blog.html#blog" >Blog</a></li>
         <li><div class="quote-btn">
           <a href="#request">Request a quote</a>
         </div></li>
       </ul>
     </nav>
+    <button class="menu-toggle">☰</button>
 
    
   </header>
 
-  <div class="hero">
+  <section class="hero" id="about">
     <div class="hero-text">
       <h1>Navigating the digital landscape<br>for success</h1>
       <p>
@@ -45,23 +50,23 @@
     </div>
 
     <div class="hero-image">
-      <img src="Illustration.svg" alt="Marketing Illustration" width="601" height="515" />
+      <img src="images/Illustration.svg" alt="Marketing Illustration" width="601" height="515" />
     </div>
-  </div>
+  </section>
 
 
   <section class="clients">
     <div class="client-logos">
-    <img src="amazon.svg" alt="Amazon" />
-    <img src="dribble.svg" alt="Netflix" />
-    <img src="hubspot.svg" alt="Zoom" />
-    <img src="notion.svg" alt="Spotify" />
-    <img src="netflix.svg" alt="Slack" />
-    <img src="zoom.svg" alt="Hubspot" />
+    <img src="images/amazon.svg" alt="Amazon" />
+    <img src="images/dribble.svg" alt="Netflix" />
+    <img src="images/hubspot.svg" alt="Zoom" />
+    <img src="images/notion.svg" alt="Spotify" />
+    <img src="images/netflix.svg" alt="Slack" />
+    <img src="images/zoom.svg" alt="Hubspot" />
     </div>
   </section>
 
-  <section class="services">
+  <section class="services" id="services">
     <div class="services-container">
       <div class="section-complete-title">
       <h2 class="section-title">
@@ -72,115 +77,11 @@
         businesses grow and succeed online. These services include
       </p>
     </div>
-      <div class="services-grid">
-        
-        <div class="service-card light">
-          <div class="service-left">
-            <div class="service-header">
-              <span class="service-tag green">Search Engine</span>
-              <span class="service-tag green">Optimization</span>
-            </div>
-            
-          <div class="service-footer">
-              <img src="icon.svg"  alt="icon"/>
-              <span>Learn More</span>
-          </div>
-        </div>
-          <img src="seo.svg" alt="SEO Illustration" class="lm" >
-          
-        </div>
-  
-       
-        <div class="service-card green-bg">
-          <div class="service-left">
-            <div class="service-header">
-              <span class="service-tag white">Search Engine </span>
-              <span class="service-tag white">Optimization</span>
-            </div>
-            <div class="service-footer">
-              <div class="service-footer">
-                <img src="icon.svg"  alt="icon"/>
-                <span>Learn More</span>
-            </div>
-            </div>
-          </div>
-            <img src="seo.svg" alt="SEO Illustration">
-            
-        </div>
-  
-        
-        <div class="service-card dark">
-          <div class="service-left">
-            <div class="service-header">
-              <span class="service-tag white">Search Engine </span>
-              <span class="service-tag white">Optimization</span>
-            </div>
-            <div class="service-footer">
-              <div class="service-footer">
-                <img src="icon11.png"  alt="icon"/>
-                <span>Learn More</span>
-            </div>
-            </div>
-          </div>
-            <img src="seo.svg" alt="SEO Illustration">
-            
-        </div>
-  
-        
-        <div class="service-card light">
-          <div class="service-left">
-            <div class="service-header">
-              <span class="service-tag green">Search Engine</span>
-              <span class="service-tag green">Optimization</span>
-            </div>
-            <div class="service-footer">
-              <div class="service-footer">
-                <img src="icon.svg"  alt="icon"/>
-                <span>Learn More</span>
-            </div>
-            </div>
-          </div>
-            <img src="seo.svg" alt="SEO Illustration">
-            
-        </div>
-        <div class="service-card green-bg">
-          <div class="service-left">
-            <div class="service-header">
-                <span class="service-tag white">Search Engine </span>
-                <span class="service-tag white">Optimization</span>
-            </div>
-            <div class="service-footer">
-              <div class="service-footer">
-                <img src="icon.svg"  alt="icon"/>
-                <span>Learn More</span>
-            </div>
-            </div>
-          </div>
-            <img src="seo.svg" alt="SEO Illustration">
-            
-        </div>
-        <div class="service-card dark">
-          <div class="service-left">
-            <div class="service-header">
-              <span class="service-tag white">Search Engine </span>
-              <span class="service-tag white">Optimization</span>
-            </div>
-            <div class="service-footer">
-              <div class="service-footer">
-                <img src="icon11.png"  alt="icon"/>
-                <span>Learn More</span>
-            </div>
-            </div>
-          </div>
-            <img src="seo.svg" alt="SEO Illustration">
-            
-        </div>
-
-      </div>
+    <div class="services-grid" id="servicesGrid"></div>
     </div>
   </section>
 
-  <section class="free-proposal">
+  <section class="free-proposal" id="proposals">
     <div class="proposal-container">
       <div class="proposal-left">
         <div class="proposal-text">
@@ -194,11 +95,11 @@
       </div>
       </div>
       <div class="proposal-image">
-        <img src="Illustration-1.svg" alt="Proposal Illustration" width="500" height="400" />
+        <img src="images/Illustration-1.svg" alt="Proposal Illustration" width="500" height="400" />
     </div>
   </section>
 
-  <section class="case-studies">
+  <section class="case-studies" id="use-cases">
       <div class="section-complete-title">
       <h2 class="section-title">
         <span>Case Studies</span>
@@ -208,49 +109,8 @@
       </p>
       </div>
 
-      <div class="case-box">
-        <div class="case-text">
-          <div class="case-p">
-          <p>
-            For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.
-          </p>
-        </div>
-          <div class="case-link">
-            <a href="#">
-              Learn More
-              <img src="icon.svg" alt="arrow icon" />
-            </a>
-          </div>
+      <div class="case-box" id="caseBox"></div>
 
-        </div>
-        <div class="case-text">
-          <div class="case-p">
-          <p>
-            For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.
-          </p>
-        </div>
-          <div class="case-link">
-            <a href="#">
-              Learn More
-              <img src="icon.svg" alt="arrow icon" />
-            </a>
-          </div>
-
-        </div>
-        <div class="case-text">
-          <div class="case-p">
-          <p>
-            For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.
-          </p>
-        </div>
-          <div class="case-link">
-            <a href="#">
-              <p>Learn More</p>
-              <img src="icon.svg" alt="arrow icon" />
-            </a>
-          </div>
-        </div>
-      </div>
   </section>
 
   <section class="working-process">
@@ -263,103 +123,11 @@
       </p>
     </div>
   
-    <div class="process-container">
-      <div class="process-step active">
-        <div class="step-header">
-          <div class="step-left">
-            <span class="step-number">01</span>
-            <h3>Consultation</h3>
-          </div>
-          <img src="minus_icon.svg" alt="toggle" class="toggle-icon" />
-        </div>
-        <div class="step-content">
-          <p>
-            During the initial consultation, we will discuss your business goals
-            and objectives, target audience, and current marketing efforts. This
-            will allow us to understand your needs and tailor our services to best
-            fit your requirements.
-          </p>
-        </div>
-      </div>
-  
-      <div class="process-step">
-        <div class="step-header">
-          <div class="step-left">
-            <span class="step-number">02</span>
-            <h3>Research and Strategy Development</h3>
-          </div>
-          <img src="plus_icon.svg" alt="toggle" class="toggle-icon" />
-        </div>
-        <div class="step-content">
-          <p>
-            We analyze your industry, audience, and competitors to craft a data-driven strategy that ensures measurable success.
-          </p>
-        </div>
-      </div>
-  
-      <div class="process-step">
-        <div class="step-header">
-          <div class="step-left">
-            <span class="step-number">03</span>
-            <h3>Implementation</h3>
-          </div>
-          <img src="plus_icon.svg" alt="toggle" class="toggle-icon" />
-        </div>
-        <div class="step-content">
-          <p>
-            We bring your strategy to life using the latest tools, channels, and technologies to achieve your goals effectively.
-          </p>
-        </div>
-      </div>
-  
-      <div class="process-step">
-        <div class="step-header">
-          <div class="step-left">
-            <span class="step-number">04</span>
-            <h3>Monitoring and Optimization</h3>
-          </div>
-          <img src="plus_icon.svg" alt="toggle" class="toggle-icon" />
-        </div>
-        <div class="step-content">
-          <p>
-            We continuously track performance, analyze metrics, and refine strategies for maximum ROI.
-          </p>
-        </div>
-      </div>
-  
-      <div class="process-step">
-        <div class="step-header">
-          <div class="step-left">
-            <span class="step-number">05</span>
-            <h3>Reporting and Communication</h3>
-          </div>
-          <img src="plus_icon.svg" alt="toggle" class="toggle-icon" />
-        </div>
-        <div class="step-content">
-          <p>
-            Transparent reporting and regular communication keep you updated on progress and insights.
-          </p>
-        </div>
-      </div>
-  
-      <div class="process-step">
-        <div class="step-header">
-          <div class="step-left">
-            <span class="step-number">06</span>
-            <h3>Continual Improvement</h3>
-          </div>
-          <img src="plus_icon.svg" alt="toggle" class="toggle-icon" />
-        </div>
-        <div class="step-content">
-          <p>
-            We identify new opportunities and adapt strategies to ensure long-term success in a dynamic digital landscape.
-          </p>
-        </div>
-      </div>
-    </div>
+    <div class="process-container" id="processContainer"></div>
+
   </section>
   
-  <section class="team">
+  <section class="team" id="blog">
     <div class="section-complete-title">
       <h2 class="section-title"><span>Team</span></h2>
       <p class="section-desc">
@@ -367,122 +135,7 @@
       </p>
     </div>
   
-    <div class="team-grid">
-      <div class="team-card">
-       
-        <a href="#" class="linkedin-icon">
-          <img src="linkedin.svg" alt="LinkedIn" />
-        </a>
-      
-        <div class="team-top">
-          <img src="p1.svg" alt="Team Member" class="team-photo" />
-          <div class="team-info">
-            <h3>John Doe</h3>
-            <p>SEO Specialist</p>
-          </div>
-        </div>
-      
-        <p class="team-desc">
-          John has over 10 years of experience in digital marketing and SEO strategy.
-        </p>
-      </div>
-      
-  
-      
-        <div class="team-card">
-         
-          <a href="#" class="linkedin-icon">
-            <img src="linkedin.svg" alt="LinkedIn" />
-          </a>
-        
-          <div class="team-top">
-            <img src="p1.svg" alt="Team Member" class="team-photo" />
-            <div class="team-info">
-              <h3>John Doe</h3>
-              <p>SEO Specialist</p>
-            </div>
-          </div>
-        
-          <p class="team-desc">
-            John has over 10 years of experience in digital marketing and SEO strategy.
-          </p>
-        </div>
-  
-        <div class="team-card">
-          
-          <a href="#" class="linkedin-icon">
-            <img src="linkedin.svg" alt="LinkedIn" />
-          </a>
-        
-          <div class="team-top">
-            <img src="p1.svg" alt="Team Member" class="team-photo" />
-            <div class="team-info">
-              <h3>John Doe</h3>
-              <p>SEO Specialist</p>
-            </div>
-          </div>
-        
-          <p class="team-desc">
-            John has over 10 years of experience in digital marketing and SEO strategy.
-          </p>
-        </div>
-        <div class="team-card">
-          
-          <a href="#" class="linkedin-icon">
-            <img src="linkedin.svg" alt="LinkedIn" />
-          </a>
-        
-          <div class="team-top">
-            <img src="p1.svg" alt="Team Member" class="team-photo" />
-            <div class="team-info">
-              <h3>John Doe</h3>
-              <p>SEO Specialist</p>
-            </div>
-          </div>
-        
-          <p class="team-desc">
-            John has over 10 years of experience in digital marketing and SEO strategy.
-          </p>
-        </div>
-  
-        <div class="team-card">
-          
-          <a href="#" class="linkedin-icon">
-            <img src="linkedin.svg" alt="LinkedIn" />
-          </a>
-        
-          <div class="team-top">
-            <img src="p1.svg" alt="Team Member" class="team-photo" />
-            <div class="team-info">
-              <h3>John Doe</h3>
-              <p>SEO Specialist</p>
-            </div>
-          </div>
-        
-          <p class="team-desc">
-            John has over 10 years of experience in digital marketing and SEO strategy.
-          </p>
-        </div>
-  
-        <div class="team-card">
-         
-          <a href="#" class="linkedin-icon">
-            <img src="linkedin.svg" alt="LinkedIn" />
-          </a>
-        
-          <div class="team-top">
-            <img src="p1.svg" alt="Team Member" class="team-photo" />
-            <div class="team-info">
-              <h3>John Doe</h3>
-              <p>SEO Specialist</p>
-            </div>
-          </div>
-        
-          <p class="team-desc">
-            John has over 10 years of experience in digital marketing and SEO strategy.
-          </p>
-        </div>
-    </div>
+    <div class="team-grid" id="teamGrid"></div>
   
     <div class="see-team">
       <button class="cta-btn black-btn" >See all team</button>
@@ -504,9 +157,10 @@
       
   
       <div class="slider-track" id="slider">
+        
         <div class="slide">
           <div class="card">
-            <p>“We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts.”</p>
+            <p>“We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence.”</p>
             <h4>John Smith</h4>
             <span>Marketing Director at XYZ Corp</span>
           </div>
@@ -548,8 +202,8 @@
       
       <div class="slider-nav">
         
-        <button class="arrow prev">←</button>
-        <button class="arrow next">→</button>
+        <button class="arrow prev"></button>
+        <button class="arrow next"></button>
     
         <div class="dots">
           <span class="dot active"></span>
@@ -565,40 +219,117 @@
     </div>
     
     
+  </section> 
+
+  <section class="contact-section" id="pricing">
+    <div class="section-complete-title">
+      <h2 class="section-title">
+        <span>Contact Us</span>
+      </h2>
+      <p class="section-desc">
+        Connect with Us: Let's Discuss Your Digital Marketing Needs and Goals.
+      </p>
+    </div>
+    <div class="contact-box">
+    
+      <form class="contact-form">
+        
+        <div class="contact-type">
+          <label class="radio-option">
+            <input type="radio" name="type" id="sayHi" checked />
+            <img src="images/radio-icon.svg" class="radio-icon checked">
+            <img src="images/radio-icon1.svg" class="radio-icon unchecked">
+            <span>Say Hi</span>
+          </label>
+          
+          <label class="radio-option">
+            <input type="radio" name="type" id="getQuote" />
+            <img src="images/radio-icon.svg" class="radio-icon checked">
+            <img src="images/radio-icon1.svg" class="radio-icon unchecked">
+            <span>Get a Quote</span>
+          </label>
+          
+        </div>
+        
+  
+        <div class="field">
+          <label class="form-label">Name</label>
+          <input type="text" placeholder="Name" class="form-input">
+        </div>
+        
+        <div class="field">
+          <label class="form-label">Email*</label>
+          <input type="email" placeholder="Email" class="form-input">
+        </div>
+        
+        <div class="field">
+          <label class="form-label">Message*</label>
+          <textarea placeholder="Message" class="form-textarea" id="messageBox"></textarea>
+        </div>
+        
+        <button class="send-btn">Send Message</button>
+  
+      </form>
+  
+      <div class="contact-img-wrap">
+        <img src="images/Illustration-2.svg" alt="Contact Illustration" class="contact-art"/>
+      </div>
+  
+    </div>
+  
   </section>
-  <script >
+  <footer class="footer">
     
-      const slides = document.querySelectorAll('.slide');
-      const dots = document.querySelectorAll('.dot');
-      const nextBtn = document.querySelector('.next');
-      const prevBtn = document.querySelector('.prev');
-      const track = document.querySelector('.slider-track');
+    <div class="footer-toprow">
+      <div class="footer-logo-nav">
+        <img src="images/logo.svg" class="footer-logo" alt="Positivus logo">
+  
+        <nav class="footer-nav">
+          <a href="#about">About us</a>
+          <a href="#services">Services</a>
+          <a href="#use-cases">Use Cases</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#blog">Blog</a>
+        </nav>
+      </div>
+  
+      <div class="footer-socials">
+       <a href="https://www.linkedin.com/"> <img src="images/l-icon.svg" alt="LinkedIn" /></a>
+       <a href="https://www.facebook.com/business"> <img src="images/f-icon.svg" alt="Facebook" /> </a>
+       <a href="https://x.com/"> <img src="images/t-icon.svg" alt="Twitter" /> </a>
+      </div>
+    </div>
+  
+   
+    <div class="footer-main">
+      <div class="footer-leftinfo">
+        <h3 class="footer-heading">Contact us:</h3>
+  
+        <p>Email:info@positivus.com</p>
+        <p>Phone: 555-567-8901</p>
+        <p>Address: 1234 Main St <br>Moonstone City, Stardust State 12345</p>
+      </div>
+  
+      <div class="footer-rightnews">
+        
+  
+        <div class="newsletter-box">
+          <input type="email" placeholder="Email" class="newsletter-input" />
+          <button class="newsletter-btn">Subscribe to news</button>
+        </div>
+      </div>
+    </div>
+  
+    <hr class="footer-line" />
+  
     
-      let index = 0;
-    
-      function updateSlider() {
-        track.style.transform = `translateX(-${index * 100}%)`;
-        dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
-      }
-    
-      nextBtn.addEventListener('click', () => {
-        index = (index + 1) % slides.length;
-        updateSlider();
-      });
-    
-      prevBtn.addEventListener('click', () => {
-        index = (index - 1 + slides.length) % slides.length;
-        updateSlider();
-      });
-    
-      dots.forEach((dot, i) => {
-        dot.addEventListener('click', () => {
-          index = i;
-          updateSlider();
-        });
-      });
-    
-    
+    <div class="footer-bottom">
+      <p>© 2023 Positivus. All Rights Reserved.</p>
+      <a href="#">Privacy Policy</a>
+    </div>
+  </footer>
+  
+  <script src="script.js" defer>  
   </script>
 </body>
 </html>
