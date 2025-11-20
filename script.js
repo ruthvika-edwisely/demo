@@ -8,3 +8,18 @@ import "./js/working-process.js";
 import "./js/team.js";
 import "./js/toast.js";
 
+window.addEventListener("load", () => {
+  const loader = document.getElementById("page-loader");
+  loader.classList.add("fade-out");
+
+  setTimeout(() => {
+    loader.style.display = "none";
+  }, 400);
+});
+
+  
+  
+  
+  
+  
+  
