@@ -836,7 +836,7 @@ line-height: normal;
 .card::after {
   content: "";
   position: absolute;
-  bottom: -14px;
+  bottom: -15px;
   left: 51px;
   width: 25px;
   height: 25px;
