@@ -350,7 +350,7 @@ background: var(--grey, #F3F3F3);
 box-shadow: 0 5px 0 0 #191A23;
 }
 
-service-card img.lm{
+.service-card img.lm{
   width: 210px !important;
   height: 210px !important;
   transition: all 0.3s ease;
@@ -452,10 +452,10 @@ service-card img.lm{
   border-radius: 45px;
   padding: 60px;
   width: 100%;
-
   position: relative;
   padding-right: 600px;
 }
+
 .proposal-text{
   font-size: 36px;
   font-style: normal;
@@ -469,9 +469,6 @@ align-items: flex-start;
 
 .proposal-text h2{
   color: #000;
-  
-
-
 font-family: "Space Grotesk";
 font-size: 30px;
 font-style: normal;
@@ -482,8 +479,6 @@ line-height: normal;
 .proposal-text p{
   padding: 26px 0px 0px 0px;
   color: #000;
-
-
 font-family: "Space Grotesk";
 font-size: 18px;
 font-style: normal;
@@ -682,6 +677,7 @@ line-height: normal;
   padding: 40px 35px;
   position: relative;
   transition: all 0.3s ease;
+  z-index: 1;
 }
 
 
@@ -690,6 +686,7 @@ line-height: normal;
   position: absolute;
   top: 30px;
   right: 30px;
+  z-index: 5;
 }
 
 .linkedin-icon img {
