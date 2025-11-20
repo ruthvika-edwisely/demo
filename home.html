@@ -6,9 +6,7 @@
   <title> Positivus | Digital Marketing Agency</title>
   <link rel="icon" type="images/icon" href="images/Vector.svg" />
   <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="layout.css" />
-<link rel="stylesheet" href="components.css" />
-<link rel="stylesheet" href="responsive.css" />
+  <link rel="stylesheet" href="responsive.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
@@ -16,18 +14,18 @@
 <body>
  
   <header class="navbar">
-    <div class="logo">
+    <a href="home.html" class="logo">
       <img src="images/Vector.svg" alt="Positivus Logo" width="30" />
       <h1 style="color: #000; font-family: Space Grotesk; font-size: 30px; font-style: normal; font-weight: 500; line-height: normal;">Positivus</h1>
-    </div>
+    </a>
 
     <nav class="nav-links">
       <ul>
-        <li><a href="index.html#about" >About us</a></li>
-        <li><a href="services.html#services" >Services</a></li>
-        <li><a href="usecases.html#usecases" >Use Cases</a></li>
-        <li><a href="pricing.html#pricing" >Pricing</a></li>
-        <li><a href="blog.html#blog" >Blog</a></li>
+        <li><a href="home.html#about">About us</a></li>
+        <li><a href="services.html#services">Services</a></li>
+        <li><a href="usecases.html#usecases">Use Cases</a></li>
+        <li><a href="pricing.html#pricing">Pricing</a></li>
+        <li><a href="team.html#team">Our Team</a></li>
         <li><div class="quote-btn">
           <a href="#request">Request a quote</a>
         </div></li>
@@ -37,6 +35,18 @@
 
    
   </header>
+  <div class="mobile-sidebar">
+    <button class="close-sidebar">✕</button>
+    <ul>
+      <li><a href="home.html#about">About us</a></li>
+      <li><a href="services.html#services">Services</a></li>
+      <li><a href="usecases.html#usecases">Use Cases</a></li>
+      <li><a href="pricing.html#pricing">Pricing</a></li>
+      <li><a href="blog.html#blog">Blog</a></li>
+      <li><a href="#request">Request a quote</a></li>
+    </ul>
+  </div>
+  
 
   <section class="hero" id="about">
     <div class="hero-text">
@@ -127,7 +137,7 @@
 
   </section>
   
-  <section class="team" id="blog">
+  <section class="team" id="team">
     <div class="section-complete-title">
       <h2 class="section-title"><span>Team</span></h2>
       <p class="section-desc">
@@ -151,74 +161,16 @@
         Step-by-Step Guide to Achieving Your Business Goals.
       </p>
     </div>
-  
-  
     <div class="slider-container">
-      
-  
       <div class="slider-track" id="slider">
-        
-        <div class="slide">
-          <div class="card">
-            <p>“We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence.”</p>
-            <h4>John Smith</h4>
-            <span>Marketing Director at XYZ Corp</span>
-          </div>
-        </div>
-  
-        <div class="slide">
-          <div class="card">
-            <p>“The team is professional, responsive, and truly cares about the success of our business.”</p>
-            <h4>Jane Doe</h4>
-            <span>CEO of AlphaTech</span>
-          </div>
-        </div>
-        <div class="slide">
-          <div class="card">
-            <p>“The team is professional, responsive, and truly cares about the success of our business.”</p>
-            <h4>Jane Doe</h4>
-            <span>CEO of AlphaTech</span>
-          </div>
-        </div>
-        <div class="slide">
-          <div class="card">
-            <p>“The team is professional, responsive, and truly cares about the success of our business.”</p>
-            <h4>Jane Doe</h4>
-            <span>CEO of AlphaTech</span>
-          </div>
-        </div>
-  
-        <div class="slide">
-          <div class="card">
-            <p>“We highly recommend Positivus to any company looking to grow their online presence.”</p>
-            <h4>Michael Brown</h4>
-            <span>Founder at BrightWave</span>
-          </div>
-        </div>
       </div>
-  
-      
-  
-      
       <div class="slider-nav">
-        
         <button class="arrow prev"></button>
         <button class="arrow next"></button>
-    
-        <div class="dots">
-          <span class="dot active"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
+        <div class="dots"> 
         </div>
-      
-        
       </div>
-
     </div>
-    
-    
   </section> 
 
   <section class="contact-section" id="pricing">
@@ -254,18 +206,21 @@
   
         <div class="field">
           <label class="form-label">Name</label>
-          <input type="text" placeholder="Name" class="form-input">
+          <input type="text" placeholder="Name" class="form-input" id="nameField">
+          <small class="error-msg"></small>
         </div>
         
         <div class="field">
           <label class="form-label">Email*</label>
-          <input type="email" placeholder="Email" class="form-input">
+          <input type="email" placeholder="Email" class="form-input" id="emailField">
+          <small class="error-msg"></small>
         </div>
         
         <div class="field">
           <label class="form-label">Message*</label>
-          <textarea placeholder="Message" class="form-textarea" id="messageBox"></textarea>
-        </div>
+          <textarea placeholder="Message" class="form-textarea" id="messageField"></textarea>
+          <small class="error-msg"></small>
+        </div>        
         
         <button class="send-btn">Send Message</button>
   
@@ -276,7 +231,8 @@
       </div>
   
     </div>
-  
+    <div id="toast" class="toast">Message sent successfully!</div>
+
   </section>
   <footer class="footer">
     
@@ -289,7 +245,7 @@
           <a href="#services">Services</a>
           <a href="#use-cases">Use Cases</a>
           <a href="#pricing">Pricing</a>
-          <a href="#blog">Blog</a>
+          <a href="#team">Our Team</a>
         </nav>
       </div>
   
@@ -329,7 +285,7 @@
     </div>
   </footer>
   
-  <script src="script.js" defer>  
+  <script src="script.js" type="module" defer>  
   </script>
 </body>
 </html>
