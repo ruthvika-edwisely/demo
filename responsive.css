@@ -1,0 +1,593 @@
+@media (max-width: 1200px) {
+
+  
+  .team {
+    padding: 0 60px;
+  }
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .team-card {
+    width: 100%;
+    max-width: 380px;
+  }
+  .see-team {
+    justify-content: center;
+    margin-top: 28px;
+  }
+
+ 
+  .services-container {
+    padding: 0px;
+  }
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  
+  .proposal-image {
+    display: none;
+  }
+  .proposal-container {
+    flex-direction: column;
+    padding-right: 60px;     
+    padding-left: 60px;
+    text-align: left;
+  }
+}
+
+  @media (max-width: 1100px) {
+    .working-process {
+      padding: 120px 60px;
+    }
+    .process-step {
+      padding: 25px 40px;
+    }
+    .step-number {
+      font-size: 30px;
+    }
+    .step-header h3 {
+      font-size: 16px;
+    }
+    .toggle-icon {
+      width: 30px;
+      height: 30px;
+    }
+    
+  }
+  @media (max-width: 1024px) {
+    body {
+      padding-top: 120px;
+    }
+  
+    .hero {
+      flex-direction: column-reverse;
+      text-align: center;
+      gap: 60px;
+      padding: 60px 60px 100px;
+    }
+  
+    .hero-text {
+      max-width: 100%;
+    }
+  
+    .hero-text h1 {
+      font-size: 52px;
+      line-height: 1.1;
+    }
+  
+    .hero-text p {
+      font-size: 18px;
+      margin: 0 auto 30px;
+    }
+  
+    .hero-image img {
+      max-width: 500px;
+    }
+  
+    .clients {
+      padding: 30px;
+    }
+  
+    .client-logos {
+      justify-content: center;
+      gap: 50px;
+    }
+
+    .services-grid {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+  }
+
+
+  @media (max-width: 1000px) {
+    .testimonials {
+      padding: 80px 40px;
+    }
+    .testimonials .section-complete-title{
+      margin-bottom: 28px;
+    }
+    .slider-nav{
+      margin-top: 28px;
+    }
+    .section-complete-title {
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+    }
+  
+    .slider-container {
+      padding: 60px 40px;
+    }
+  
+    .slide {
+      flex: 0 0 90%;
+      margin: 0 1%;
+    }
+  
+    .card {
+      width: 90%;
+      padding: 25px;
+    }
+  
+    .arrow {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .contact-section {
+      padding: 20px 16px;
+      margin: 38px 0;
+      gap: 28px;
+    }
+  
+    .contact-box {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px 16px;
+      gap: 40px;
+    }
+  
+    .contact-form {
+      width: 100%;
+    }
+  
+    .contact-img-wrap,
+    .contact-art {
+      display: none !important;
+    }
+  
+    .footer {
+      margin: 0px;
+      padding: 55px 40px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+    }
+  
+    .footer-logo-nav {
+      gap: 60px;
+    }
+  }
+  @media (max-width: 900px) {
+
+    
+    .navbar {
+      padding: 20px 40px;
+      height: 80px;
+    }
+  
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 70px;
+      right: 16px;
+      width: 80%;
+      background: #fff;
+      padding: 20px;
+      border-radius: 14px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      flex-direction: column;
+      gap: 20px;
+      z-index: 999;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .nav-links ul {
+      position: absolute;
+      top: 80px;
+      right: 0;
+      width: 100%;
+      flex-direction: column;
+      gap: 25px;
+      background: #fff;
+      padding: 30px 0;
+      border-top: 1px solid #eee;
+      display: none;
+    }
+  
+    .nav-links.active ul {
+      display: flex;
+    }
+  
+    .quote-btn {
+      display: none;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+    .services{
+      padding: 20px 16px;
+
+    }
+    
+    .hero {
+      flex-direction: column-reverse;
+      padding: 50px 30px;
+      text-align: center;
+    }
+  
+    .hero-text h1 {
+      font-size: 42px;
+    }
+  
+    .hero-image img {
+      max-width: 350px;
+    }
+  
+    .client-logos {
+      justify-content: center;
+      gap: 50px;
+    }
+    .client-logos img {
+      height: 40px;
+    }
+  
+    .team {
+      margin: 38px 0;
+      padding: 20px 16px;
+    }
+    .team-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+  
+    .footer-toprow {
+      flex-direction: column;
+      gap: 38px;
+      margin-bottom: 38px;
+    }
+    .footer-logo-nav {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .footer-main {
+      flex-direction: column;
+      gap: 38px;
+    }
+    .newsletter-box {
+      width: 100%;
+    }
+    .footer {
+      padding: 60px 30px;
+    }
+  
+    .footer-bottom {
+      flex-direction: column !important;
+      align-items: center !important;
+      gap: 10px !important;
+    }
+    .footer-line{
+      margin: 38px 0;
+    }
+    .free-proposal {
+      padding: 20px 16px;
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+    }
+    .case-studies {
+      padding: 20px 16px;
+    }
+    .working-process {
+      padding: 20px 16px;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+
+    .menu-toggle {
+      display: block;
+    }
+  
+    .nav-links ul {
+      display: none;
+      top: 80px;
+      right: 0;
+      width: 100%;
+      flex-direction: column;
+      gap: 25px;
+      padding: 30px 0;
+      background: var(--white);
+      border-top: 1px solid #eee;
+    }
+  
+    .nav-links.active ul {
+      display: flex;
+    }
+  
+    .quote-btn {
+      display: none;
+    }
+  
+    .hero-text h1 {
+      font-size: 42px;
+    }
+    .hero-text p {
+      font-size: 16px;
+    }
+    .cta-btn {
+      padding: 16px 30px;
+      font-size: 20px;
+    }
+    .hero-image img {
+      max-width: 380px;
+    }
+    
+    .service-card {
+      flex-direction: row;
+      text-align: center;
+      padding: 40px 30px;
+      
+    }
+    .service-card img {
+      max-width: 180px;
+    }
+    .service-link {
+      margin: 0 auto;
+    }
+  
+    .testimonials {
+      padding: 40px 20px;
+    }
+  
+    .section-complete-title {
+      margin-bottom: 40px;
+    }
+  
+    .slider-container {
+      padding: 50px 20px 90px;
+      border-radius: 30px;
+    }
+  
+    .slide {
+      flex: 0 0 90%; 
+      margin: 0 5%;
+    }
+  
+    .card {
+      padding: 30px 28px 40px;
+      border-radius: 20px;
+    }
+  
+
+    .card::after {
+      left: 32px;
+      width: 20px;
+      height: 20px;
+    }
+  
+    .card p {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+  
+    .card h4 {
+      position: absolute;
+      left: 30px;
+      bottom: -48px;
+      font-size: 16px;
+    }
+  
+
+    .card span {
+      position: absolute;
+      left: 30px;
+      bottom: -70px;
+      font-size: 13px;
+    }
+  
+
+    .prev {
+      left: 5px;
+    }
+  
+    .next {
+      right: 5px;
+    }
+  
+
+    .slider-nav {
+      margin-top: 80px;
+    }
+  
+    .dot {
+      width: 10px;
+      height: 10px;
+    }
+  
+  }
+  @media (max-width: 700px) {
+    
+    .section-complete-title {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .section-title span {
+      font-size: 28px;
+    }
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+    .service-card {
+      width: 100%;
+      padding: 30px 24px;
+    }
+  
+    .working-process {
+      padding: 20px 16px;
+    }
+  
+    .process-step {
+      padding: 22px 25px;
+    }
+  
+    .team-grid {
+      padding-top: 28px;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    .team-card {
+      max-width: 360px;
+    }
+  }
+
+  @media (max-width: 600px) {
+
+    .navbar {
+      padding: 16px;
+      height: 64px;
+    }
+  
+    .logo h1 {
+      font-size: 16px !important;
+    }
+  
+    .logo img {
+      width: 20px;
+    }
+  
+    body {
+      padding-top: 80px;
+    }
+  
+    .hero {
+      flex-direction: column-reverse;
+      text-align: left;
+      padding: 0 16px;
+      margin: 20px 16px;
+    }
+  
+    .hero-image img {
+      max-width: 320px;
+      width: 100%;
+    }
+  
+    .cta-btn {
+      width: 100%;
+      padding: 20px 35px;
+    }
+  
+    .clients {
+      padding: 38px 0;
+    }
+  
+    .section-title span {
+      font-size: 28px;
+    }
+  
+    .proposal-image {
+      display: none;
+    }
+    .proposal-container {
+      padding: 30px 24px;
+      flex-direction: column;
+    }
+  
+    .process-step {
+      padding: 20px 20px;
+    }
+  
+    .slider-container {
+      padding: 24px 24px 40px;
+    }
+
+  
+    .case-box {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+    }
+
+    .footer {
+      padding: 42px 22px;
+      gap: 38px;
+    }
+    .footer-nav {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 500px) {
+
+    .process-step {
+      padding: 16px 20px;
+      border-radius: 45px;
+    }
+
+    .team-card {
+      padding: 28px 24px;
+    }
+
+    .footer-heading {
+      font-size: 20px;
+    }
+  
+    .footer-nav a {
+      font-size: 14px;
+    }
+  }
+
+
+  @media (max-width: 480px) {
+    body {
+      padding-top: 100px;
+    }
+    .hero-text h1 {
+      font-size: 32px;
+      font-weight: 500;
+    }
+    .hero-image img {
+      max-width: 300px;
+    }
+    
+  }
+
+
+  @media (max-width: 400px) {
+    .working-process {
+      padding: 50px 15px;
+    }
+    .process-step {
+      padding: 18px;
+    }
+    .testimonials {
+      padding: 20px 16px;
+    }
+    .card {
+      padding: 18px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
