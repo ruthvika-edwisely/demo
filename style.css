@@ -827,7 +827,7 @@ line-height: normal;
 .card span {
   position: absolute;
   left: 52px;
-  bottom: -70px;
+  bottom: -80px;
   font-size: 18px;
   color: var(--white);
 }
