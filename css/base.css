@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+:root {
+  --green: #b9ff66;
+  --black: rgb(0, 0, 0);
+  --dark: #191a23;
+  --gray: #f3f3f3;
+  --white: #ffffff;
+}
+html{
+scroll-behavior: smooth;
+width: 100%;
+overflow-x: hidden;
+}
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Space Grotesk";
+  background: var(--white);
+  color: var(--black);
+  line-height: 1.6;
+  padding: 160px 0px 0px 0px;
+}
+h1 a{
+  color: var(--black);
+  font-family:"Space Grotesk";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
