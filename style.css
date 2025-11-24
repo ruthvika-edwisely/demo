@@ -1235,6 +1235,7 @@ color: var(--white);
 }
 
 .newsletter-btn {
+font-family: 'Space Grotesk', sans-serif;
 font-size: 20px;
 font-weight: 400px;
 background: var(--green);
@@ -1733,8 +1734,11 @@ body {
 }
 
 .newsletter-btn {
-  padding: 18px 25px;
-  font-size: 18px;
+  font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+  padding: 20px;
 }
 }
 
@@ -1762,7 +1766,7 @@ body {
 
 .case-studies {
   padding: 20px 16px;
-  gap: 28px !important;
+  gap: 0px !important;
   margin-bottom: 38px;
 }
 
@@ -1810,7 +1814,7 @@ body {
 }
 
 .section-desc {
-  max-width: 90% !important;
+  max-width: 91% !important;
   margin: 0 auto !important;
 }
 
@@ -2039,7 +2043,7 @@ body {
 .services-grid {
   grid-template-columns: 1fr;
   gap: 25px;
-  padding-top: 28px;
+  padding-top: 0px;
 }
 
 
@@ -2067,20 +2071,26 @@ body {
 
 
 .service-card img {
-  width: auto;
-  height: auto;
+  width: 28px;
+  height: 28px;
   margin: 0px;
   display: block;
 }
 
 
 .service-card img.lm {
-  width: auto;
-  height: auto;
+  width: 149px !important;
+  height: 118px !important;
   margin: 0;
   display: inline-block;
 }
+.service-footer span{
 
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+}
 }
 
 @media (max-width: 600px) {
@@ -2189,7 +2199,7 @@ body {
 @media (max-width: 700px) {
 .working-process {
   padding: 80px 25px;
-  gap: 30px;
+  gap: 0px;
 }
 
 .process-step {
