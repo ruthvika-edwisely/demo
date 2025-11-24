@@ -180,7 +180,7 @@
     .contact-section {
       padding: 20px 16px;
       margin: 38px 0;
-      gap: 28px;
+      gap: 0px;
     }
   
     .contact-box {
@@ -398,7 +398,7 @@
     }
   
     .section-complete-title {
-      margin-bottom: 40px;
+      margin-bottom: 28px;
     }
   
     .slider-container {
@@ -444,6 +444,10 @@
       font-size: 13px;
     }
   
+    .arrow{
+      width: 20px;
+      height: 20px;
+    }
 
     .prev {
       left: 5px;
@@ -490,7 +494,7 @@
     }
   
     .team-grid {
-      padding-top: 28px;
+      padding-top: 0px;
       grid-template-columns: 1fr;
       gap: 20px;
     }
@@ -505,13 +509,16 @@
       padding: 16px;
       height: 64px;
     }
-  
+    
+    .logo{
+      gap: 6px;
+    }
     .logo h1 {
       font-size: 16px !important;
     }
   
     .logo img {
-      width: 20px;
+      width: 19px;
     }
   
     body {
@@ -547,7 +554,7 @@
       display: none;
     }
     .proposal-container {
-      padding: 30px 24px;
+      padding: 33px 24px;
       flex-direction: column;
     }
   
@@ -613,7 +620,7 @@
 
   @media (max-width: 400px) {
     .working-process {
-      padding: 50px 15px;
+      padding: 20px 15px;
     }
     .process-step {
       padding: 18px;
@@ -626,7 +633,25 @@
     }
   }
 
+  @media (max-width: 393px) {
+
+    .client-logos {
+      display: grid;
+      grid-template-columns: repeat(3, auto);   /* 3 logos per row */
+      grid-auto-rows: auto;
+      column-gap: 48px;  /* space between logos horizontally */
+      row-gap: 24px;     /* space between rows */
+    }
   
+    /* Only the first logo needs 40px left space */
+    .client-logos a:first-child {
+      margin-left: 40px;
+    }
+  
+    .client-logos img {
+      height: 36px;
+    }
+  }
   
   
   
