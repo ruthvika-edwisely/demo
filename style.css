@@ -403,6 +403,7 @@ color: var(--dark);
 }
 
 .service-footer {
+font-size: 20px;
 display: flex;
 justify-content: flex-start;
 align-items: center;
@@ -501,8 +502,8 @@ top: 50%;
 transform: translateY(-50%);
 }
 .proposal-image img{
-width: 360px;
-height: auto;
+width: 359px;
+height: 394px;
 }
 
 .case-studies{
@@ -999,10 +1000,12 @@ font-weight: 500;
 
 .form-input {
 width: 100%;
-padding: 16px 20px;
-border-radius: 10px;
+padding: 18px 30px;
+border-radius: 14px;
 border: 1px solid var(--black);
-font-size: 16px;
+font-size: 18px;
+font-weight: 400;
+font-family: 'Space Grotesk', sans-serif;
 background: var(--white);
 outline: none;
 }
