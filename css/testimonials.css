@@ -1,0 +1,154 @@
+.testimonials {
+  padding: 100px;
+  padding-bottom: 0px;
+  }
+  
+  .testimonials h2 {
+  display: inline-block;
+  background: var(--green);
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  }
+  .testimonials .section-complete-title{
+  margin-bottom: 85px;
+  }
+  
+  .subtext {
+  color: var(--black);
+  margin: 20px 0 50px;
+  }
+  
+  .slider-container {
+  background: var(--dark);
+  border-radius: 45px;
+  padding: 84px 60px 68px;
+  overflow: hidden;
+  position: relative;
+  
+  justify-content: center;
+  align-items: center;
+  
+  }
+  
+  .slider-track {
+  display: flex;
+  transition: transform 0.2s ease;
+  justify-content: flex-start;
+  }
+  
+  .slide {
+  flex: 0 0 50%;
+  margin: 0 2%;
+  transition: transform 0.3s ease;
+  }
+  
+  
+  .card {
+  border: 2px solid var(--green);
+  border-radius: 25px;
+  padding: 48px 52px 52px 52px;
+  
+  color: var(--white);
+  text-align: left;
+  position: relative;
+  }
+  .card h4 {
+  position: absolute;
+  left: 52px;
+  bottom: -55px;
+  margin: 0;
+  color: var(--green);
+  font-size: 20px;
+  }
+  
+  
+  .card span {
+  position: absolute;
+  left: 52px;
+  bottom: -80px;
+  font-size: 18px;
+  color: var(--white);
+  }
+  
+  
+  .card::after {
+  content: "";
+  position: absolute;
+  bottom: -14px;
+  left: 51px;
+  width: 25px;
+  height: 25px;
+  background: var(--dark);
+  border-left: 2px solid var(--green);
+  border-bottom: 2px solid var(--green);
+  transform: rotate(-45deg);
+  }
+  
+  .card p {
+  line-height: 1.7;
+  font-size: 16px;
+  margin-bottom: 20px;
+  }
+  
+  .arrow {
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  }
+  
+  .prev {
+  left: 200px;
+  background-image: url("../images/arrow-left-active.svg");
+  }
+  
+  
+  
+  
+  .next {
+  right: 200px;
+  background-image: url("../images/arrow-right-active.svg");
+  }
+  
+  .slider-nav {
+  position: relative;
+  margin-top: 124px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  }
+  
+  
+  .dots {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  }
+  
+  
+  .dot {
+  width: 14px;
+  height: 14px;
+  background-image: url("../images/dot-default.svg");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  }
+  
+  .dot.active {
+  background-image: url("../images/dot-active.svg");
+  transform: scale(1.15);
+  }
+  

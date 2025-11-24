@@ -1,0 +1,38 @@
+.clients {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: var(--white);
+    padding: 0px 100px;
+  }
+  
+  .client-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+    flex-shrink:0;
+    gap: 70px;
+    flex-wrap: wrap;
+    padding:0px;
+  }
+  
+  .client-logos img {
+    height: 48px;            
+    width: auto;             
+    object-fit: contain;    
+    display: inline-block;
+    vertical-align: middle;  
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.4s ease;
+    cursor: pointer;
+  }
+  
+  .client-logos img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  

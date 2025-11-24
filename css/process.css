@@ -1,0 +1,97 @@
+.working-process {
+  padding: 140px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  }
+  
+  .process-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  }
+  
+  
+  .process-step {
+  background: var(--gray);
+  border: 1px solid var(--dark);
+  border-radius: 45px;
+  box-shadow: 0 5px 0 0 var(--dark);
+  padding: 41px 60px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  }
+  
+  .process-step.active {
+  background: var(--green);
+  }
+    
+    .process-step.active .step-content {
+    display: block;
+    margin-top: 30px;
+    position: relative;
+    }
+    
+    .process-step.active::before {
+      content: "";
+      position: absolute;
+      left: 60px;  
+      right: 60px; 
+      top: 130px;  
+      height: 2px;
+      background: var(--dark);
+      z-index: 1;
+    }  
+    
+    
+    
+    .toggle-icon {
+    width: 58px;
+    height: 58px;
+    transition: transform 0.3s ease;
+    }
+    
+    .process-step.active .toggle-icon {
+    transform: rotate(180deg);
+    }
+  
+  
+  
+  .step-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .step-left {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  }
+  
+  .step-number {
+  font-size: 60px;
+  font-weight: 500;
+  color: var(--black);
+  }
+  
+  .step-header h3 {
+  font-size: 30px;
+  font-weight: 500;
+  }
+  
+  
+  .step-content {
+  max-height: 0;
+  overflow: hidden;
+  color: var(--black);
+  font-size: 18px;
+  line-height: 1.5;
+  transition: max-height 0.4s ease, margin-top 0.3s ease;
+  margin-top: 0;
+  
+  
+  
+  }
+  
